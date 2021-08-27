@@ -15,7 +15,7 @@
     <div class="login"  v-else>
       <input v-model="loginParam.username" type="text">
       <input v-model="loginParam.password" type="text">
-      <button @click="login">登录</button>
+      <button @click="login">登录一下</button>
     </div>
   </div>
 </template>
