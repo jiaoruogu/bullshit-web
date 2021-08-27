@@ -1,3 +1,5 @@
 #!/bin/bash
-docker images
-docker ps
+
+IMAGE_NAME="bullshit-web-image"
+
+docker build -t ${IMAGE_NAME} .
