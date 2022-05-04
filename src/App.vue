@@ -3,7 +3,7 @@
     <!-- 提交未触发构建 -->
     <div style="height:100%" v-if="isLogin">
       <div class="input-content">
-        <h1>当初的愿望实现了吗 ? ? ?</h1>
+        <h1>当初的愿望实现了吗 ? ? ? ? ? ?</h1>
         <h2>触发测试呀</h2>
         <div>
           <input v-model="content" type="text">
